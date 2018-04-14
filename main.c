@@ -66,7 +66,15 @@ int randomProblemNumber(FILE *f)
 
 int main(void)
 {
-	FILE *f = fopen("문예사.txt", "r");
+	char fileName[32];
+
+	printf("ProblemMaker\n시험문제를 무작위로 보여줍니다.\n제작자 lbr0452000\n\n");
+	printf("문제를 제출할 파일 이름을 입력하세요.\n(예시 : 문학과예술의사회사.txt)\n");
+	scanf("%s", fileName);
+	getchar();
+	system("cls");
+
+	FILE *f = fopen(fileName, "r");
 	char trash;
 	while (1)
 	{
