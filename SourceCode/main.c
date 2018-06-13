@@ -82,8 +82,8 @@ int *mixedOrderOfProblem(int num)
 int main(void)
 {
 	char fileName[32];
-	printf("ProblemMaker\n½ÃÇè¹®Á¦¸¦ ¹«ÀÛÀ§·Î º¸¿©Áİ´Ï´Ù.\nÁ¦ÀÛÀÚ lbr0452000\n\n");
-	printf("¹®Á¦¸¦ Á¦ÃâÇÒ ÆÄÀÏ ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä.\n(ex : ¿¹½Ã¹®Á¦.txt)\n");
+	printf("ProblemMaker\nì‹œí—˜ë¬¸ì œë¥¼ ë¬´ì‘ìœ„ë¡œ ë³´ì—¬ì¤ë‹ˆë‹¤.\nì œì‘ì lbr0452000\n\n");
+	printf("ë¬¸ì œë¥¼ ì œì¶œí•  íŒŒì¼ ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”.\n(ex : ì˜ˆì‹œë¬¸ì œ.txt)\n");
 	scanf("%s", fileName);
 	getchar();
 	system("cls");
@@ -103,14 +103,13 @@ int main(void)
 				break;
 		}
 
-		printf("Á¤´ä : ");
+		printf("ì •ë‹µ : ");
 		printNextLine(f);
 		printf("\n\n");
 	}
 
-	printf("¸ğµç ¹®Á¦¸¦ Ãâ·ÂÇß½À´Ï´Ù. ¾Æ¹« Å°³ª ´©¸£¸é ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+	printf("ëª¨ë“  ë¬¸ì œë¥¼ ì¶œë ¥í–ˆìŠµë‹ˆë‹¤. ì•„ë¬´ í‚¤ë‚˜ ëˆ„ë¥´ë©´ í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 	getch();
 	
 	return 0;
 }
-
